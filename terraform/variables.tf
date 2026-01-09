@@ -1,11 +1,11 @@
 variable "aws_region" {
-    description = "AWS region to deploy resources into"
-    type        = string
-    default     = "ap-south-1"
+  description = "AWS region to deploy resources into"
+  type        = string
+  default     = "ap-south-1"
 }
 
 variable "project_name" {
-    description = "Project name prefix for resources"
-    type        = string
-    default     = "flask-ecs-terraform"
+  description = "Project name prefix for resources"
+  type        = string
+  default     = "flask-ecs-terraform"
 }
